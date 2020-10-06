@@ -1,0 +1,324 @@
+////////////////////////////////////////////////////////////////////////////
+//
+//    Dataset           =  /MinimumBias/Run2010A-Apr21ReReco-v1/AOD
+//    lumi_mask         =  
+//    number_of_lumis   =  
+//                      
+//    run range         =  136033-141881
+//                      
+//    crab dir          =  /afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/
+//                      
+//    crab:  --------------------
+//    Dataset: /MinimumBias/Run2010A-Apr21ReReco-v1/AOD
+//    Local output:   chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/
+//    Total Events read: 15718774
+//    Total Files read: 893
+//    Total Jobs : 289
+//    Luminosity section summary file:   chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/lumiSummary.json
+//       # Jobs: Retrieved:289
+//    ----------------------------
+//    
+//    ==================
+//    From lumiCalc.py :
+//    ==================
+//    
+//     ==  =  Total : 
+//    | Delivered LS | Delivered (/μb) | Selected LS | Recorded (/μb) |
+//    -------------------------------------------------------------------
+//    |        29917 |       341415.453 |       20019 |      284724.350 |
+//    
+//                      
+////////////////////////////////////////////////////////////////////////////
+
+void load_d2kpipi_MBRun2010data_part1(TChain *chain)
+{
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_1_1_m3R.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_2_1_Z1n.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_3_1_6NG.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_4_1_sRL.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_5_1_nmE.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_6_1_JRU.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_7_1_WU9.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_8_1_NtK.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_9_1_Wer.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_10_1_lvW.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_11_1_L0R.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_12_1_Iy4.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_13_1_R7K.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_14_1_mXX.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_15_1_Uf9.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_16_1_Buo.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_17_1_YXg.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_18_1_yle.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_19_1_4DA.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_20_1_Oxl.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_21_1_EzO.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_22_1_YGE.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_23_1_Zeb.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_24_1_oKJ.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_25_1_UZP.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_26_1_a01.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_27_1_5Qr.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_28_1_QVP.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_29_1_8Qn.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_30_1_nll.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_31_1_cmv.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_32_1_Gpu.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_33_1_2qv.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_34_1_9u7.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_35_1_1Pm.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_36_1_fxJ.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_37_1_KjV.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_38_1_MdT.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_39_1_iq5.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_40_1_tGH.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_41_1_YG8.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_42_1_03h.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_43_1_eVK.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_44_1_IBU.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_45_1_BuB.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_46_1_i27.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_47_1_fie.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_48_1_6yS.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_49_1_YAL.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_50_1_Iuh.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_51_1_T1C.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_52_1_2hl.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_53_1_obc.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_54_1_Nht.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_55_1_z30.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_56_1_lQg.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_57_1_8YN.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_58_1_E4e.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_59_1_iFg.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_60_1_vcD.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_61_1_1wp.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_62_1_Cwk.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_63_1_mYx.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_64_1_V1W.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_65_1_MUH.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_66_1_ZJw.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_67_1_mTP.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_68_1_nNx.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_69_1_ioS.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_70_1_vza.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_71_1_L15.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_72_1_lLs.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_73_1_Ksg.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_74_1_mn7.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_75_1_Qnb.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_76_1_2Py.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_77_1_GpH.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_78_1_9NR.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_79_1_Vmi.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_80_1_JX6.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_81_1_uiI.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_82_1_bv4.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_83_1_VkB.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_84_1_4Uc.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_85_1_WXU.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_86_1_mG5.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_87_1_HYo.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_88_1_pxe.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_89_1_k4k.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_90_1_sqN.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_91_1_mYr.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_92_1_p5x.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_93_1_a3i.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_94_1_wfn.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_95_1_a2S.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_96_1_soB.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_97_1_Jz7.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_98_1_PF7.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_99_1_M8Q.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_100_1_uZh.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_101_1_zNC.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_102_1_xfB.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_103_1_mJz.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_104_1_Nuz.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_105_1_CzI.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_106_1_VTz.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_107_1_seM.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_108_1_TcM.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_109_1_MVR.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_110_1_fpC.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_111_1_DOB.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_112_1_Fdj.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_113_1_sWw.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_114_1_u5r.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_115_1_OWb.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_116_1_rhe.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_117_1_qxP.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_118_1_QsP.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_119_1_XzH.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_120_1_897.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_121_1_HTA.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_122_1_hbB.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_123_1_TWe.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_124_1_3uX.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_125_1_xf8.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_126_1_ITu.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_127_1_4Re.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_128_1_ywO.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_129_1_GhA.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_130_1_0ko.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_131_1_QTA.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_132_1_0uR.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_133_1_63J.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_134_1_DJd.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_135_1_6Vv.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_136_1_9Vm.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_137_1_snl.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_138_1_Xwo.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_139_1_9f5.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_140_1_co2.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_141_1_9sa.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_142_1_o1M.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_143_1_OP2.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_144_1_zuo.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_145_1_3UM.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_146_1_Pj7.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_147_1_KHj.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_148_1_iXG.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_149_1_EHJ.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_150_1_Hp2.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_151_1_sBX.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_152_1_yIT.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_153_1_1Cb.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_154_1_jfl.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_155_1_lw7.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_156_1_aAW.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_157_1_W0o.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_158_1_4fP.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_159_1_X5X.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_160_1_z1m.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_161_1_Snq.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_162_1_Gzh.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_163_1_ncI.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_164_1_rj9.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_165_1_g0C.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_166_1_56q.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_167_1_qSK.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_168_1_BoJ.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_169_1_6fJ.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_170_1_JTl.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_171_1_yAG.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_172_1_QB2.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_173_1_Nyq.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_174_1_KGD.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_175_1_F5H.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_176_1_pkl.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_177_1_Fw2.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_178_1_8D2.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_179_1_2E8.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_180_1_gHT.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_181_1_XJH.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_182_1_Pxh.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_183_1_x22.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_184_1_ndI.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_185_1_IzC.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_186_1_Gmo.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_187_1_EFE.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_188_1_wE5.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_189_1_bEr.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_190_1_E27.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_191_1_o1D.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_192_1_v32.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_193_1_Yew.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_194_1_4ef.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_195_1_JSl.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_196_1_plt.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_197_1_vdY.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_198_1_mEo.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_199_1_RtJ.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_200_1_3LT.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_201_1_POX.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_202_1_d1H.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_203_1_lly.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_204_1_LIO.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_205_1_qhl.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_206_1_lfa.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_207_1_EBC.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_208_1_0S1.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_209_1_u5h.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_210_1_Xgc.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_211_1_KLU.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_212_1_P2N.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_213_1_pom.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_214_1_EMC.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_215_1_TH0.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_216_1_18v.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_217_1_A0K.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_218_1_c9t.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_219_1_8BD.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_220_1_5SI.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_221_1_aMW.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_222_1_xal.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_223_1_mfi.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_224_1_wPR.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_225_1_vba.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_226_1_r8W.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_227_1_JW3.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_228_1_Jlk.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_229_1_c2z.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_230_1_lJ6.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_231_1_LPb.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_232_1_RHi.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_233_1_xrn.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_234_1_Hjv.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_235_1_pxt.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_236_1_7uC.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_237_1_EDz.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_238_1_KS1.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_239_1_Hnm.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_240_1_JL9.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_241_1_yJ1.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_242_1_a9Y.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_243_1_Iig.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_244_1_dPw.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_245_1_QPZ.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_246_1_kS0.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_247_1_HDH.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_248_1_JsZ.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_249_1_iCT.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_250_1_emc.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_251_1_rV1.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_252_1_54t.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_253_1_RbL.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_254_1_PJz.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_255_1_n9x.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_256_1_Ow1.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_257_1_Pgk.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_258_1_hXe.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_259_1_oeq.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_260_1_lDU.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_261_1_M8O.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_262_1_tmE.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_263_1_2oW.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_264_1_wnZ.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_265_1_pSG.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_266_1_8Vt.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_267_1_RaF.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_268_1_8cS.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_269_1_Z74.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_270_1_EMj.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_271_1_Ve3.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_272_1_UPF.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_273_1_jes.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_274_1_Afm.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_275_1_mhE.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_276_1_qTC.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_277_1_o3U.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_278_1_vkp.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_279_1_TcX.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_280_1_AXp.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_281_1_ytg.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_282_1_9yN.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_283_1_VAi.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_284_1_t42.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_285_1_tzw.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_286_1_SjM.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_287_1_8Nl.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_288_1_EjH.root");
+  chain->Add("/afs/cern.ch/work/w/wcarvalh/ccbar/CMSSW_4_2_8/src/charm/DmesonAnalyzer/crab_0_140427_185008/res/D2Kpipi_Run2010A-Apr21ReReco_289_1_Ot2.root");
+}
